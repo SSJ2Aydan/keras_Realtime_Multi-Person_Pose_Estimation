@@ -1,6 +1,6 @@
 from google.colab import files
 
-os.chdir('sample_videos')
+os.chdir('/content/keras_Realtime_Multi-Person_Pose_Estimation/sample_videos')
 
 uploaded = files.upload()
 
