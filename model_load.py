@@ -1,10 +1,9 @@
 import keras
 from keras.models import Sequential
 from keras.models import Model
-from keras.layers import Input, Dense, Activation, Lambda
+from keras.layers import Input, Dense, Activation, Lambda, LayerNormalization
 from keras.layers.convolutional import Conv2D
 from keras.layers.pooling import MaxPooling2D
-from keras.layers.normalization import BatchNormalization
 from keras.layers.merge import Concatenate
 from config_reader import config_reader
 import scipy
